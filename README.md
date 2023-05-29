@@ -4,11 +4,13 @@ El proyecyto que empieza con el numero 01 es el proyecto con ficheros
 EL proyecto que empieza con el numero 02 es el proyecto conectado a la base de datos
 
 
+
 En el proyecto 02 (base de datos) el puerto de la conexion con la base de datos tiene que ser el 3307 por cuestiones de configuracion con el localHost en Windows
 
 En el proyecto 01 (ficheros) creo que sinceramente esta todo controlado excepto si a la hora de crear un nuevo usuario usas poner "  " (dos espacios).
 Digo que creo que esta todo controlado porque mi codigo paso por muchisima gente a la que pedi que intentase sacar el maximo numero de errores posibles y a base de corregir esos errores puedo decir lo que dije anteriormente.
 
+En ambos proyectos el historico esta gestionado de tal forma que la puntuacion es siempre incremental, es decir, nunca muestra las puntuaciones que han obtenido durante la partida sino que pinta la puntuacion global. Esto se debe a un fallo mio porque entendi que en el ranking historico si por ejemplo en la ultima partida habia jugado la CPU1 y acaba con 7 puntos y vuelve a jugar otra vez ganando en la nueva partida 3 puntos, en vez de en el historico poner "CPU1 3" yo se la sumo al anterior poniendo "CPU1 10". Espero que no haya problema, si lo hay no pasa nada, al fin y al cabo lo entendi yo mal.
 
 En el proyecto 02 (base de datos) no me dio tiempo a controlar tantos errores en comparacion con el 01 (ficheros) asique tener en cuenta las siguientes cosas
 
